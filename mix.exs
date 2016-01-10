@@ -1,10 +1,16 @@
 defmodule Zipcloudx.Mixfile do
   use Mix.Project
 
+  @description """
+    Elixir zipcloud API wrapper
+  """
+
   def project do
     [app: :zipcloudx,
      version: "0.0.1",
      elixir: "~> 1.1",
+     name: "zipcloudx",
+     description: @description,
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps]

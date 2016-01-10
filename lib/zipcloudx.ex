@@ -22,9 +22,10 @@ defmodule Zipcloudx do
       address: decode_results(json["results"])
     }
     case response.status do
-      200..299 ->
+      status when status in 200..299 ->
         {:ok, response}
       _ ->
+        IO.puts response.status
         {:error, response}
     end
   end

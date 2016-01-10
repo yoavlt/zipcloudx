@@ -7,7 +7,7 @@ defmodule Zipcloudx.Mixfile do
 
   def project do
     [app: :zipcloudx,
-     version: "0.0.1",
+     version: "0.0.2",
      elixir: "~> 1.1",
      name: "zipcloudx",
      description: @description,

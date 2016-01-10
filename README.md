@@ -9,17 +9,17 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
   1. Add zipcloudx to your list of dependencies in `mix.exs`:
 
 ```elixir
-        def deps do
-          [{:zipcloudx, "~> 0.0.1"}]
-        end
+  def deps do
+    [{:zipcloudx, "~> 0.0.1"}]
+  end
 ```
 
   2. Ensure zipcloudx is started before your application:
 
 ```elixir
-        def application do
-          [applications: [:zipcloudx]]
-        end
+  def application do
+    [applications: [:zipcloudx]]
+  end
 ```
 
 ## Usage
